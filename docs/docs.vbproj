@@ -92,7 +92,10 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="browser_warning.js" />
+    <Content Include="collapsible.js" />
     <Content Include="index.html" />
+    <Content Include="styles.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -141,6 +144,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

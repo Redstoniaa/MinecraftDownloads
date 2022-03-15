@@ -1,0 +1,123 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html {
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+body {
+    margin: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    font-family: "Open Sans";
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.center {
+    display: block;
+    min-height: 100vh;
+    position: relative;
+    background-image: url("images/spiritwillow.jpg");
+}
+
+.center-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+    .center-content h1 {
+        font-size: 4vw;
+    }
+
+    .center-content .subtitle {
+        font-size: 1.5vw;
+    }
+
+.banner {
+    padding: 2em;
+}
+
+    .banner h1 {
+        font-size: 40px;
+    }
+
+    .banner p {
+        font-size: 20px;
+    }
+
+    .banner .float-right {
+        margin-left: 32px;
+    }
+
+    .banner img {
+        height: 10vh;
+    }
+
+.schematics {
+    background-color: #eee;
+    position: relative;
+}
+
+.float-right {
+    float: right;
+}
+
+.banner .bottom {
+    margin-top: 1em;
+}
+
+.round-button {
+    background-color: lightgray;
+    padding: 0.75em;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 25px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.collapsible {
+    background-color: #ccc;
+    margin-top: 1em;
+}
+
+    .collapsible .open {
+        display: block;
+        width: 100%;
+        text-align: left;
+        padding: 1em;
+        border: none;
+        font-size: 20px;
+        background-color: #bbb;
+    }
+
+    .collapsible .collapsible-content {
+        padding: 10px 20px;
+        display: none;
+    }
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+ol {
+    margin-top: 0;
+}
+
+.no-after-space {
+    margin-bottom: 0;
+}
