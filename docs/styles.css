@@ -36,6 +36,10 @@ body {
         font-size: 4vw;
     }
 
+    .center-content p {
+        font-size: 1.5vw;
+    }
+
     .center-content .subtitle {
         font-size: 1.5vw;
     }

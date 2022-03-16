@@ -95,6 +95,8 @@
     <Content Include="browser_warning.js" />
     <Content Include="collapsible.js" />
     <Content Include="index.html" />
+    <Content Include="schematic_download.html" />
+    <Content Include="schematic_download_fillin.js" />
     <Content Include="styles.css" />
     <Content Include="Web.config" />
   </ItemGroup>
