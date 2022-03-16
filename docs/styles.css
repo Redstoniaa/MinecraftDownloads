@@ -92,6 +92,7 @@ body {
 .collapsible {
     background-color: #ccc;
     margin-top: 1em;
+    border: 3px solid #bbb;
 }
 
     .collapsible .open {
