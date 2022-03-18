@@ -1,10 +1,11 @@
 ﻿class SchematicDetails {
-    constructor(id, name, description, videolink, downloadlink) {
+    constructor(id, name, description, videolink, downloadlink, thumbnail) {
         this.id = id;
         this.name = name;
         this.description = description;
         this.videolink = videolink;
         this.downloadlink = downloadlink;
+        this.thumbnail = thumbnail;
     }
 }
 
@@ -85,7 +86,8 @@ var schematics =
             "Receiver Circuit for Turtle Egg Wireless Redstone",
             "The receiver circuit for a wireless redstone signal sender using turtle eggs, that can send a signal from x0 z0 to anywhere in the world.",
             "https://youtu.be/OHP2llzKgQM",
-            "https://github.com/Redstonia2020/MinecraftDownloads/releases/download/sch-turtle-egg-wireless/turtle_egg_wireless_redstone.litematic"),
+            "https://github.com/Redstonia2020/MinecraftDownloads/releases/download/sch-turtle-egg-wireless/turtle_egg_wireless_redstone.litematic",
+            "./images/thumbnails/turtle_egg_wireless_redstone.png"),
     ];
 
 window.onload = function () {
@@ -109,5 +111,8 @@ window.onload = function () {
         document.getElementById("title").innerHTML = schematicInfo.name;
         document.getElementById("description").innerHTML = schematicInfo.description;
         document.getElementById("download").href = schematicInfo.downloadlink;
+        if (schematicInfo.thumbnail) {
+            document.getElementById("background").style.backgroundImage = "url(\"" + schematicInfo.thumbnail + "\")";
+        }
     }
 }
