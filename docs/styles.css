@@ -16,11 +16,12 @@ body {
     display: none;
 }
 
-.center {
+.center, .schematic-download {
     display: block;
     min-height: 100vh;
     position: relative;
-    background-image: url("images/spiritwillow.jpg");
+    background: url("images/spiritwillow.jpg") no-repeat center center;
+    color: white;
 }
 
 .center-content {
@@ -29,19 +30,27 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: white;
 }
 
-    .center-content h1 {
+    .center-content h1, .schematic-download h1 {
         font-size: 4vw;
     }
 
-    .center-content p {
+    .center-content p, .schematic-download p {
         font-size: 1.5vw;
     }
 
-    .center-content .subtitle {
+    .center-content .subtitle, .schematic-download .subtitle {
         font-size: 1.5vw;
+    }
+
+.schematic-download-inner {
+    padding: 2.5vw;
+}
+
+    .schematic-download iframe {
+        float: right;
+        margin-left: 1em;
     }
 
 .center-background {
