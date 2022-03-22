@@ -97,6 +97,7 @@
     <Content Include="collapsible.js" />
     <Content Include="images\spiritwillow.jpg" />
     <Content Include="images\thumbnails\2in1_rose_sculk_farm.png" />
+    <Content Include="images\thumbnails\mobile_user.jpg" />
     <Content Include="images\thumbnails\sinking_magma_cube.png" />
     <Content Include="images\thumbnails\turtle_egg_wireless_redstone.png" />
     <Content Include="index.html" />

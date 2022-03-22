@@ -16,7 +16,7 @@ body {
     display: none;
 }
 
-.center, .schematic-download {
+.center, .schematic-download, .annoying-dog {
     display: block;
     min-height: 100vh;
     position: relative;
@@ -32,26 +32,35 @@ body {
     text-align: center;
 }
 
-    .center-content h1, .schematic-download h1 {
+    .center-content h1 {
         font-size: 4vw;
     }
 
-    .center-content p, .schematic-download p {
+    .center-content p {
         font-size: 1.5vw;
     }
 
-    .center-content .subtitle, .schematic-download .subtitle {
+    .center-content .subtitle {
         font-size: 1.5vw;
     }
 
 .schematic-download-inner {
-    padding: 2.5vw;
+    padding: 40px;
 }
 
-    .schematic-download iframe {
-        float: right;
-        margin-left: 1em;
-    }
+.schematic-download h1 {
+    font-size: 50px;
+}
+
+.schematic-download p {
+    font-size: 25px;
+}
+
+.schematic-download iframe {
+    float: right;
+    margin-left: 16px;
+    margin-top: 16px;
+}
 
 .center-background {
     height: 100vh;
@@ -143,4 +152,27 @@ ol {
 
 .no-after-space {
     margin-bottom: 0;
+}
+
+/* you're not meant to be downloading schematics on a phone you know */
+.annoying-dog {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 71;
+    display: none;
+
+    background: black;
+    color: white;
+}
+
+.annoying-dog img {
+    width: 90vw;
+    text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+    .annoying-dog {
+        display: block;
+    }
 }
