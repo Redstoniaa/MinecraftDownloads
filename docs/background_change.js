@@ -3,22 +3,28 @@ var i = 1;
 var fadeId;
 
 window.onload = function () {
+    document.getElementById("background-back").style.backgroundImage = "url(\"images/thumbnails/" + backgrounds[1] + ".png\")";
+
     document.getElementById("background-front").style.opacity = 1;
     document.getElementById("background-back").style.opacity = 1;
+
     setInterval(changeBackground, 5000);
 }
 
 function changeBackground() {
-    document.getElementById("background-back").style.backgroundImage = "url(\"images/thumbnails/" + backgrounds[i] + ".png\")";
     fadeId = setInterval(fade, 15);
     setTimeout(function () {
+        clearInterval(fadeId);
+
         document.getElementById("background-front").style.backgroundImage = "url(\"images/thumbnails/" + backgrounds[i] + ".png\")";
         document.getElementById("background-front").style.opacity = 1;
-        clearInterval(fadeId);
+
         i += 1;
         if (i == backgrounds.length) {
             i = 0;
         }
+
+        document.getElementById("background-back").style.backgroundImage = "url(\"images/thumbnails/" + backgrounds[i] + ".png\")";
     }, 1500)
 }
 
