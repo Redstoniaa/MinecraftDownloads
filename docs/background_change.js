@@ -1,4 +1,4 @@
-﻿var backgrounds = ["2in1_rose_sculk_farm", "sinking_magma_cube", "turtle_egg_wireless_redstone"];
+﻿var backgrounds = ["2in1_rose_sculk_farm", "sinking_magma_cube", "turtle_egg_wireless_redstone", "water_warden_farm"];
 var i = 1;
 var fadeId;
 
