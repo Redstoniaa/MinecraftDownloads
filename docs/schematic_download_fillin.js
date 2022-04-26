@@ -88,6 +88,13 @@ var schematics =
             "OHP2llzKgQM",
             "sch-turtle-egg-wireless/turtle_egg_wireless_redstone.litematic",
             "turtle_egg_wireless_redstone"),
+
+        new SchematicDetails(
+            "sinking-magma-cube",
+            "Sinking Magma Cube Farm",
+            "A farm that uses soul sand to make magma cubes immediately sink into the block that they spawn on and intersect wither roses.",
+            "dowvmCzSPOM",
+            "sch-sinking-magma-cube/sinking_magma_cube_farm.litematic"),
     ];
 
 window.onload = function () {
