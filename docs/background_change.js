@@ -19,10 +19,8 @@ function changeBackground() {
         document.getElementById("background-front").style.backgroundImage = "url(\"images/thumbnails/" + backgrounds[i] + ".png\")";
         document.getElementById("background-front").style.opacity = 1;
 
-        i += 1;
-        if (i == backgrounds.length) {
-            i = 0;
-        }
+        i++;
+        if (i == backgrounds.length) i = 0;
 
         document.getElementById("background-back").style.backgroundImage = "url(\"images/thumbnails/" + backgrounds[i] + ".png\")";
     }, 1500)
