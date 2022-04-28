@@ -176,3 +176,8 @@ ol {
         display: block;
     }
 }
+
+/* Fancy keybaord buttons! */
+code {
+    color: darkslategray
+}
