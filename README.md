@@ -6,5 +6,5 @@ A small official website by myself. I mainly use it to upload schematics and oth
 Mobile support is not yet here, since I see no reason to be downloading schematics on your mobile phones (Litematica obviously doesn't work on mobile editions of Minecraft), however, once I add more features, mobile support will soon follow.
 
 ## Credits
-Redstonia (Redstonia2020) - Owner and main contributor to website
-Andrew (Andrew-71) - Minor contributions to code optimisation and formatting
+ - Redstonia (Redstonia2020) - Owner and main contributor to website
+ - Andrew (Andrew-71) - Minor contributions to code optimisation and formatting
