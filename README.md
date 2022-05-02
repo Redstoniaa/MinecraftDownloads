@@ -1,4 +1,4 @@
-# Minecraft Downloads
+# Redstonia's House
 https://redstonia2020.github.io/MinecraftDownloads/
 
 A small official website by myself. I mainly use it to upload schematics and other stuff for Minecraft so that you can easily download them for use in your own worlds, however, I'm planning to put the website to more uses in the future.
