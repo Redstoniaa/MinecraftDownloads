@@ -115,6 +115,11 @@ body {
     text-decoration: none;
     text-align: center;
 }
+:hover.round-button {
+    background-color: rgb(179, 179, 179);
+    color: black;
+    cursor: pointer;
+}
 
 .collapsible {
     background-color: #ccc;
@@ -175,4 +180,9 @@ ol {
     .annoying-dog {
         display: block;
     }
+}
+
+/* Fancy keybaord buttons! */
+code {
+    color: darkslategray
 }

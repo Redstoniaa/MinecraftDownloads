@@ -109,9 +109,7 @@ window.onload = function () {
         }
     }
 
-    if (!schematicInfo) {
-        alert("that identifier does not correspond to any schematic");
-    }
+    if (!schematicInfo) alert("that identifier does not correspond to any schematic");
 
     else {
         console.log(schematicInfo);
