@@ -94,7 +94,8 @@ var schematics =
             "Sinking Magma Cube Farm",
             "A farm that uses soul sand to make magma cubes immediately sink into the block that they spawn on and intersect wither roses.",
             "dowvmCzSPOM",
-            "sch-sinking-magma-cube/sinking_magma_cube_farm.litematic"),
+            "sch-sinking-magma-cube/sinking_magma_cube_farm.litematic",
+            "sinking_magma_cube"),
     ];
 
 window.onload = function () {

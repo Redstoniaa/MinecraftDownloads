@@ -1,6 +1,10 @@
-﻿var backgrounds = ["2in1_rose_sculk_farm", "sinking_magma_cube", "turtle_egg_wireless_redstone", "water_warden_farm", "portal_spam_froglight_farm"];
+﻿var backgrounds = ["2in1_rose_sculk_farm", "sinking_magma_cube", "turtle_egg_wireless_redstone", "water_warden_farm", "portal_spam_froglight_farm", "slime_ice", "honey_ice", "mud_converter"];
 var i = 1;
 var fadeId;
+
+// values to change when testing, all default to false //
+var testImages = false;
+// end //
 
 window.onload = function () {
     document.getElementById("background-back").style.backgroundImage = "url(\"images/thumbnails/" + backgrounds[1] + ".png\")";
@@ -8,7 +12,8 @@ window.onload = function () {
     document.getElementById("background-front").style.opacity = 1;
     document.getElementById("background-back").style.opacity = 1;
 
-    setInterval(changeBackground, 5000);
+    if (!testImages) setInterval(changeBackground, 5000);
+    else setInterval(changeBackground, 2000);
 }
 
 function changeBackground() {
