@@ -4,6 +4,7 @@ var fadeId;
 
 // values to change when testing, all default to false //
 var testImages = false;
+var doNotRandomize = false;
 // end //
 
 window.onload = function () {
@@ -24,8 +25,17 @@ function changeBackground() {
         document.getElementById("background-front").style.backgroundImage = "url(\"images/thumbnails/" + backgrounds[i] + ".png\")";
         document.getElementById("background-front").style.opacity = 1;
 
-        i++;
-        if (i == backgrounds.length) i = 0;
+        if (doNotRandomize) {
+            i++;
+            if (i == backgrounds.length) i = 0;
+        }
+
+        else {
+            let n = i;
+            while (n == i)
+                n = Math.floor(Math.random() * backgrounds.length);
+            i = n;
+        }
 
         document.getElementById("background-back").style.backgroundImage = "url(\"images/thumbnails/" + backgrounds[i] + ".png\")";
     }, 1500)
