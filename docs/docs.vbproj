@@ -95,6 +95,7 @@
     <Content Include="background_change.js" />
     <Content Include="browser_warning.js" />
     <Content Include="collapsible.js" />
+    <Content Include="images\arrow.png" />
     <Content Include="images\spiritwillow.jpg" />
     <Content Include="images\thumbnails\2in1_rose_sculk_farm.png" />
     <Content Include="images\thumbnails\honey_ice.png" />
